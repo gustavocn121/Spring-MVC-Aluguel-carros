@@ -17,7 +17,6 @@ public class PedidoForm {
 	}
 
 
-
 	public Long getIdAutomovel() {
 		return this.idAutomovel;
 	}
@@ -30,8 +29,6 @@ public class PedidoForm {
 		this.idAutomovel = idAutomovel;
 		this.idContratante = idContratante;
 	}
-
-
 
 	public void setIdAutomovel(Long idAutomovel) {
 		this.idAutomovel = idAutomovel;

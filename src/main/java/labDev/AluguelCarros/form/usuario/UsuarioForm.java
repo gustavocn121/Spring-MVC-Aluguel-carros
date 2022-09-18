@@ -26,5 +26,4 @@ public class UsuarioForm {
 		this.senha = senha;
 	}
 
-	
 }

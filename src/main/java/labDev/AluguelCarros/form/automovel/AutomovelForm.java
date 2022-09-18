@@ -7,7 +7,6 @@ public class AutomovelForm {
 	public String ano;
 	public String marca;
 	public String modelo;
-	
 	public String placa;
 	public String contratoCredito;
 	public String proprietario;
