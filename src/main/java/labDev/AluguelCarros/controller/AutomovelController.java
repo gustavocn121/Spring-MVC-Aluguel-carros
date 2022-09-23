@@ -60,7 +60,7 @@ public class AutomovelController {
 	@PostMapping("/novo")
 	@ResponseBody
 	@Transactional
-	public AutomovelDto criarAutomovel(AutomovelForm form) {
+	public AutomovelDto criarAutomovel(@RequestBody AutomovelForm form) {
 
 		Automovel automovel = this.automovelRepo.save(new Automovel(form));
 		
